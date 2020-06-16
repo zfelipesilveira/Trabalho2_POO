@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class LeituraTexto {
 
+
+    //USAR O MÉTODO DA CLASSE STRING PARA VERIFICAR O PRIMEIRO CARACTER DE CADA LINHA
     public void leituraArquivo() {
         Path path = Paths.get("CLIENTES.TXT");
         try (BufferedReader br = Files.newBufferedReader(path, Charset.defaultCharset())) {
